@@ -1,0 +1,43 @@
+# coding: utf-8
+# Your code here!
+for x in range(100):
+    print("hello")
+for x in range(3):
+    print("hello")
+for x in range(3):
+    print("hello world")
+for x in range(3):
+    print("Hello")
+    print("World")
+for x in range(3):
+    print("Hello")
+for x in range(3):
+    print("World")
+for x in range(3):
+    print("Hello")
+    print("World")
+for x in range(3):
+    print("Hello World")
+for x in range(10):
+    print("x")
+for x in range(10):
+    print(x)
+for x in range(100):
+    print(x)
+for x in range(100):
+    print(x, end=" ")
+for x in range(200):
+    print(x, end=" ")
+for x in range(10):
+    print(x+3, end=" ")
+for x in range(100):
+    print(x, end=" ")
+for x in range(90):
+    print(x ,end=" ")
+for x in 
+    
+    
+    
+    
+    
+    
