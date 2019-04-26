@@ -1,0 +1,12 @@
+# coding: utf-8
+# Your code here!
+print("Hello World !")
+a=("Hello World !")
+print(a)
+print("2019")
+a=("2019")
+print(a)
+for x in range (10,20):
+    print(x,end=" ")
+
+    
