@@ -1,0 +1,19 @@
+a=5
+b=0
+for x in range(7):
+    a=a+5
+    b=a+b
+    print(b,end=" ")
+a=5
+b=0
+for x in range(7):
+    a=a+5
+    b=a+b
+    print(b,end=" ")
+a=5
+b=0
+for x in range(7):
+    a=a+5
+    b=b+a
+    c=b/(x+1)
+    print(c,end=" ")
