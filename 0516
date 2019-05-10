@@ -1,0 +1,13 @@
+for x in range(3):
+    print("*",end=" ")
+print()
+for x in range(4):
+    print("*",end=" ")
+print()
+for x in range(5):
+    print("*",end=" ")
+print()
+for y in range(3,6):
+    for x in range(y):
+        print("*",end="")
+    print()
