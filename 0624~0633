@@ -1,0 +1,64 @@
+# coding: utf-8
+# Your code here!
+for x in range(1,100):
+    print(x,end=" ")
+    if(x==50):
+        break
+print()
+s=0
+for x in range(1,101):
+    s=x+(s-1)
+    print(s,end=" ")
+print()
+s=0
+for x in range(1,101):
+    s=x+(s-1)
+    if(s>1000):
+        break
+    print(s,end=" ")
+print()
+a=8989
+b=5555
+for x in range(100):
+    r=a%b
+    print(a,"=",b,"*",a//b,"+",r)
+    if(r==0):
+        break
+    a=b
+    b=r
+print("gcd:",b)
+print()
+n=18
+for x in range(1,19):
+    if(n%x==0):
+        print(x,end=" ")
+    else:
+        print("*",end=" ")
+print()
+n=18
+for x in range(1,19):
+    if(n%x==0):
+        print(x,end=" ")
+print()
+n=18
+count=0
+for x in range(1,19):
+    if(n%x==0):
+        count=count+1
+print(count,end=" ")
+print()
+for n in range(1,101):
+    count=0
+    for x in range(1,n+1):
+        if(n%x==0):
+            count=count+1
+    print(count,end=" ")
+print()
+for n in range(1,101):
+    count=0
+    for x in range(1,n+1):
+        if(n%x==0):
+            count=count+1
+    if(n>=2 and count==2):
+        print(n,end=" ")
+print()
