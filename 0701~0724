@@ -1,0 +1,240 @@
+# coding: utf-8
+# Your code here!
+n=5
+for y in range(n):
+    for x in range(y+1):
+        print("*",end=" ")
+    print()
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge()
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge()
+hoge()
+hoge()
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge(5)
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge(5)
+hoge(10)
+hoge(15)
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+for x in range(1,10):
+    hoge(x)
+print()
+n=5
+for y in range(n):
+    for x in range(n-y):
+        print("*",end=" ")
+    print()
+def hoge():
+    n=5
+for y in range(n):
+    for x in range(n-y):
+        print("*",end=" ")
+    print()
+def moga():
+    n=5
+for y in range(n):
+    for x in range(n-y):
+        print("*",end=" ")
+    print()
+hoge()
+moga()
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+    print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+    print()
+hoge(5)
+moga(5)
+print()
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+    print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+    print()
+hoge(10)
+moga(10)    
+print()
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+    print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+    print()
+for x in range(1,10):
+    hoge(x)
+    moga(x)
+print()
+
+
+
+
+for x in range(1,10):
+    y=2*x
+    print(y,end=" ")
+print()
+def func(x):
+    y=2*x
+    print(y,end=" ")
+for x in range(1,10):
+    func(x)
+print()
+def func(x):
+    y=2*x
+    return y 
+for x in range(1,10):
+    y=func(x)
+    print(y,end=" ")
+print()
+n=6
+r=4
+bunbo=1
+for x in range(1,5):
+    bunbo=bunbo*x
+bunshi=1
+for y in range(3,7):
+    bunshi=bunshi*y
+c=bunshi/bunbo
+print(c)
+print()
+def comb():
+    n=6
+    r=4
+    bunbo=1
+    for x in range(1,5):
+        bunbo=bunbo*x
+    bunshi=1
+    for y in range(3,7):
+        bunshi=bunshi*y
+    c=bunshi/bunbo
+    print(c)
+comb()
+def comb():
+    n=6
+    r=4
+    bunbo=1
+    for x in range(1,5):
+        bunbo=bunbo*x
+    bunshi=1
+    for y in range(3,7):
+        bunshi=bunshi*y
+    c=bunshi/bunbo
+    return c
+c=comb()
+print(c)
+def comb(n,r):
+    bunbo=1
+    for x in range(1,r+1):
+        bunbo=bunbo*x
+    bunshi=1
+    for y in range(n-r+1,n+1):
+        bunshi=bunshi*y
+    c=bunshi/bunbo
+    return c
+c=comb(6,4)
+print(c)
+
+
+print()
+def comb(n,r):
+    bunbo=1
+    for x in range(1,r+1):
+        bunbo=bunbo*x
+    bunshi=1
+    for y in range(n-r+1,n+1):
+        bunshi=bunshi*y
+    c=bunshi/bunbo
+    return c
+def pascal(m):
+    for n in range(0,m+1):
+        for r in range(0,n+1):
+            c=comb(n,r)
+            print(c,end=" ")
+        print()
+    return m
+pascal(4)
+
+print()
+print("(",end=" ")
+print("‾",end=" ")
+print("_",end=" ")
+print("‾",end=" ")
+print(")",end=" ")
+print()
+def emoji():
+    print("(",end=" ")
+    print("‾",end=" ")
+    print("_",end=" ")
+    print("‾",end=" ")
+    print(")",end=" ")
+emoji()
+def emoji():
+    print("(",end=" ")
+    print("^",end=" ")
+    print("_",end=" ")
+    print("^",end=" ")
+    print(")",end=" ")
+for x in range(0,5):
+    emoji()
+print()
+def emoji(eye):
+    print("(",end=" ")
+    print(eye,end=" ")
+    print("_",end=" ")
+    print(eye,end=" ")
+    print(")",end=" ")
+for x in range(0,5):
+    emoji("T")
+print()
+def emoji(eye):
+    print("(",end=" ")
+    print(eye,end=" ")
+    print("_",end=" ")
+    print(eye,end=" ")
+    print(")",end=" ")
+def emoji_table(m,n):
+    for y in range(0,n):
+        for x in range(0,m):
+            if(x%2):
+                emoji("*")
+            else:
+                emoji("-")
+        print()
+emoji_table(8,4)
