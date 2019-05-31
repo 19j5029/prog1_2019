@@ -1,0 +1,90 @@
+a=[1,2,3,4]
+print(a[0],end="")
+print(a[1],end="")
+print(a[2],end="")
+print(a[3],end="")
+print()
+a=[1,2,3,4]
+s=0
+for x in range(len(a)):
+    s=s+a[x]
+r=s/len(a)
+print("average is",r)
+print()
+def ave_n(a):
+    s=0
+    for x in range(len(a)):
+        s=s+a[x]
+    r=s/len(a)
+    return r
+a=[1,2,3,4,5,6,7,8]
+r=ave_n(a)
+print("average is",r)
+v=[ 0 for x in range(4) ]
+print(v[0],end=" ")
+print(v[1],end=" ")
+print(v[2],end=" ")
+print(v[3],end=" ")
+print()
+v=[0 for x in range(4)]
+for x in range(len(v)):
+    print(x,end=" ")
+print()
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    print(0,end=" ")
+print()
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    v[x]=x
+for x in range(len(v)):
+    print(v[x],end="")
+print()
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    v[x]=2*x
+for x in range(len(v)):
+    print(v[x],end=" ")
+print()
+h=[0 for x in range(10)]
+for x in range(len(h)):
+    h[x]=(16*x)%11+160
+    print(h[x],end=" ")
+print()
+w=[0 for x in range(10)]
+for x in range(len(w)):
+    w[x]=(6*x)%11+60
+    print(w[x],end=" ")
+print()
+h=160
+w=60
+b=10000*(w/(h*h))
+print("BMI :",b)
+def bmi_1(h,w):
+    b=10000*(w/(h*h))
+b=bmi_1(160,60)
+print("BMI :",b)
+print()
+def bmi_1(h,w):
+    b=10000*(w/(h*h))
+    return b
+def bmi_n(h,w):
+    b=[0 for x in range(len(h))]
+    for x in range(len(h)):
+        b[x]=bmi_1(h[x],w[x])
+    return b
+    
+h=[0 for x in range(10)]
+for x in range(len(h)):
+    h[x]=(16*x)%11+160
+    print(h[x],end=" ")
+print()
+w=[0 for x in range(10)]
+for x in range(len(w)):
+    w[x]=(6*x)%11+60
+    print(w[x],end=" ")
+print()
+b = bmi_n(h,w)
+for x in range(len(b)):
+    print(b[x],end=" ")
+    
