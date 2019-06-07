@@ -1,0 +1,186 @@
+19j5029@lin3332:~$ 19j000@lin0000:~$ firefox &
+[1] 2652
+19j5029@lin3332:~$ 19j000@lin0000:~$: コマンドが見つかりません
+19j000@lin0000:~$ uname -a
+19j000@lin0000:~$: コマンドが見つかりません
+[1]+  終了 127              19j000@lin0000:~$ firefox
+[1]+  終了 127              19j000@lin0000:~$ firefox
+19j5029@lin3332:~$ 19j000@lin0000:~$ cat /proc/meminfo
+19j000@lin0000:~$: コマンドが見つかりません
+19j5029@lin3332:~$ 19j000@lin0000:~$ cat /proc/cpuinfo
+19j000@lin0000:~$: コマンドが見つかりません
+19j5029@lin3332:~$ 19j000@lin0000:~$uname-a
+19j000@lin0000:~-a: コマンドが見つかりません
+19j5029@lin3332:~$ 19j000@lin0000:~$ cat /proc/cpuinfo
+19j000@lin0000:~$: コマンドが見つかりません
+19j5029@lin3332:~$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 94
+model name	: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+stepping	: 3
+cpu MHz		: 3191.996
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase avx2 invpcid rdseed clflushopt
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 6383.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+19j5029@lin3332:~$ firefox
+19j5029@lin3332:~$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 94
+model name	: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+stepping	: 3
+cpu MHz		: 3191.996
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase avx2 invpcid rdseed clflushopt
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 6383.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+19j5029@lin3332:~$ uname -a
+Linux lin3332 4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+19j5029@lin3332:~$ cat /proc/meminfo
+MemTotal:        2041304 kB
+MemFree:          381680 kB
+MemAvailable:     736832 kB
+Buffers:           18604 kB
+Cached:           520008 kB
+SwapCached:            0 kB
+Active:           980984 kB
+Inactive:         482348 kB
+Active(anon):     749504 kB
+Inactive(anon):   264332 kB
+Active(file):     231480 kB
+Inactive(file):   218016 kB
+Unevictable:       13600 kB
+Mlocked:           13600 kB
+SwapTotal:        969960 kB
+SwapFree:         969436 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        938356 kB
+Mapped:           295904 kB
+Shmem:             75564 kB
+Slab:             107948 kB
+SReclaimable:      74424 kB
+SUnreclaim:        33524 kB
+KernelStack:        7148 kB
+PageTables:        39444 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1990612 kB
+Committed_AS:    3955420 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      118720 kB
+DirectMap2M:     1978368 kB
+19j5029@lin3332:~$ mkdir prog1
+19j5029@lin3332:~$ mkdir prog1/mkdir 09
+19j5029@lin3332:~$ mkdir prog1/09
+19j5029@lin3332:~$ is prog1
+is: コマンドが見つかりません
+19j5029@lin3332:~$ ls prog1
+09
+19j5029@lin3332:~$ mkdir prog1/09/a
+19j5029@lin3332:~$ mkdir prog1/09/b
+19j5029@lin3332:~$ ls 09
+ls: '09' にアクセスできません: そのようなファイルやディレクトリはありません
+19j5029@lin3332:~$ ls prog1/09
+a  b
+19j5029@lin3332:~$ mkdir prog1/09/a/hoge
+19j5029@lin3332:~$ ls prog1/09/a
+hoge
+19j5029@lin3332:~$ mv prog1/09/a/hoge prog1/09
+19j5029@lin3332:~$ ls prog1/09
+a  b  hoge
+19j5029@lin3332:~$ mv prog1/09/hoge prog1/09/b
+19j5029@lin3332:~$ ls prog1/09/b
+hoge
+19j5029@lin3332:~$ rmbir prog1/09/b/hoge
+
+Command 'rmbir' not found, did you mean:
+
+  command 'rmdir' from deb coreutils
+
+Try: apt install <deb name>
+
+19j5029@lin3332:~$ rmdir prog1/09/b/hoge
+19j5029@lin3332:~$ rmdir prog1/09/a
+19j5029@lin3332:~$ rmdir prog1/09/b
+19j5029@lin3332:~$ rmdir prog1/09
+19j5029@lin3332:~$ rmdir prog1
+19j5029@lin3332:~$ pwd
+/home/stu/2019/j5/19j5029
+19j5029@lin3332:~$ mkdir prog1
+19j5029@lin3332:~$ cd prog1
+19j5029@lin3332:~/prog1$ pwd
+/home/stu/2019/j5/19j5029/prog1
+19j5029@lin3332:~/prog1$ mkdir 09
+19j5029@lin3332:~/prog1$ ls .
+09
+19j5029@lin3332:~/prog1$ pwd
+/home/stu/2019/j5/19j5029/prog1
+19j5029@lin3332:~/prog1$ mkdir a
+19j5029@lin3332:~/prog1$ mkdir b
+19j5029@lin3332:~/prog1$ ls .
+09  a  b
+19j5029@lin3332:~/prog1$ cd a
+19j5029@lin3332:~/prog1/a$ pwd
+/home/stu/2019/j5/19j5029/prog1/a
+19j5029@lin3332:~/prog1/a$ mkdir hoge
+19j5029@lin3332:~/prog1/a$ ls .
+hoge
+19j5029@lin3332:~/prog1/a$ my hoge ..
+my: コマンドが見つかりません
+19j5029@lin3332:~/prog1/a$ mv hoge ..
+19j5029@lin3332:~/prog1/a$ pwd
+/home/stu/2019/j5/19j5029/prog1/a
+19j5029@lin3332:~/prog1/a$ ls .
+19j5029@lin3332:~/prog1/a$ mv hoge b ..
+mv: 'hoge' を stat できません: そのようなファイルやディレクトリはありません
+mv: 'b' を stat できません: そのようなファイルやディレクトリはありません
+19j5029@lin3332:~/prog1/a$ 
